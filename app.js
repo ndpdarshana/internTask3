@@ -9,8 +9,9 @@ app.post('/',function(req,res){
   var date = new Date();
   var str = req.body.string;
   if(str === 'query'){
-    res.status(400, 'Bad request');
-    res.send( JSON.stringify({'status':'Msg rejected'}));
+    // res.status(400, 'Bad request');
+    // res.send( JSON.stringify({'status':'Msg rejected'}));
+    res.sendFile(__dirname + '/redirect.html');
   }else{
     store = {string:str, time:date}
     fs.writeFile('store.txt', JSON.stringify(store), function(){
