@@ -1,16 +1,16 @@
 How to setup
 1. Install nodejs (10.15.2)
 2. run following command inside the directory
-  npm install
+  `npm install`
 3. run program
-  node app
+  `node app`
 4. The excluded string is 'query'.
 
 The program should be run at port 3000, client can access the program by
-http://localhost:3000/ URL
+URL: http://localhost:3000/ 
 
 Post request should be as follows:
-URL: POST http://localhost:3000/
+URL: `POST http://localhost:3000/`
 POST / HTTP/1.1
 Host: localhost:3000
 Content-Type: application/json
@@ -20,7 +20,7 @@ Body:
 {"string":"Hello, world"}
 
 Query request should be as follows:
-URL: GET http://localhost:3000/query
+URL: `GET http://localhost:3000/query`
 GET /query HTTP/1.1
 Host: localhost:3000
 Cache-Control: no-cache
