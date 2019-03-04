@@ -1,0 +1,16 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "How to setup 1. Install nodejs (10.15.2) 2. run following command inside the directory   npm install 3. run program   node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.7",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {}
+}
